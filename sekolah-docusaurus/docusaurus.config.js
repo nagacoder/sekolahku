@@ -9,7 +9,7 @@ const config = {
   title: "Sekolahku",
   tagline: "Dinosaurs are cool",
   url: "https://sekolaku-docusaurus.netlify.app",
-  baseUrl: "/sekolah-docusaurus",
+  baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
