@@ -43,7 +43,7 @@ Siswa dapat melihat jadwal mereka,mengirim PR, ujian dan dapat untuk melihat keh
 
 ## 1.4 System Architecture
 
-![image]("http://www.plantuml.com/plantuml/png/TPDDw-8m4CRl-HI3T_7UWrYtqLsGzQNjOH4FsMRKOfkKP8h2udVVj0qcxFBleSmyyvkXp3nTMHA6-hPXeY9j89LjhLYIKozHKSAIWp130C2I0aLrHvC0SqydgeUu8SmsHYj29MVmXm6SJmwY2tj7nDe50U2lpg2r0o85YT_2EYJpqSHSTIFHmEoWBTqCviVTfB-7iKfBrx3lq0YgjHegvsy61I6K5is5mJd31btQ-xJif8ZIt5KhMkGeJ7N_g3-K2mX-uXFMTTC44FYhjlIlw1SKTMwDa6W34WJ_0P7WMxxh5f_QF49Nq6AElqGRc2ZtzPI60w2gC42H69FAFkCj_2_axiIoRqBJLvBM3MpGYP_LQQglTJLUnQb-NgoEjc2ZGs2-1Ey4I63BYyLXdxjNMImolkC5PxuwWC47ZitI8bsdEOTZoK-_c3VbVBwSvZ9_cI2CbWxfPEYGisYwK-7ZBBP29TsVyHS0")
+![image](./arch.png)
 
 ## 1.5 Business Context
 
