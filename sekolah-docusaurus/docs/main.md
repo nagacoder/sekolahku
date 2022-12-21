@@ -2,22 +2,113 @@
 sidebar_position: 1
 ---
 
-# Introduction
+# Tugas Kelompok 1
 
-Welcome to the web management school platform - SekolahKu!
+# 1.Introduction
 
-This platform is designed to improve communication and organization within the school community by providing a central location for all relevant information and resources.
+## 1.1 Purpose of this document
 
-Students will be able to access their class schedules, submit assignments, and view their grades. Teachers will be able to post announcements, create and distribute assignments, and enter grades. Parents will be able to view their child's progress and communicate with teachers.
+Sekolah ku adalah system management sekolah yang mencakup sebagian besar
+operasional yang berkaitan dengan sekolah, antara lain: guru, siswa, orang tua,
+karyawan, jadwal, kelas, mata pelajaran, bus dan biaya kuliah, Untuk
+mengurangi penanganan kertas dan penggunaan metode modern dalam merekam data
+yang akan memastikan bahwa pekerjaan akan dilakukan dalam waktu yang lebih singkat, lebih efisien
+dan menyimpan data agar tidak hilang.
 
-We hope that this platform will make it easier for everyone to stay informed and on track, and we encourage all members of the school community to use it to its full potential
+## 1.2 Scope of this document
 
-There are several problems that the web management school platform aims to solve:
+Konsentrasi sistem ini dibagi menjadi tiga faktor sebagai berikut:
 
-1. Communication breakdown: It can be difficult for teachers, students, and parents to stay in touch and stay informed about what's happening in the school. This platform provides a centralized location for announcements, class schedules, and other important information, making it easier for everyone to stay up to date.
+### Teacher
 
-2. Lack of organization: It can be challenging for students to keep track of assignments, class schedules, and other tasks. The platform allows students to view their schedules and submit assignments, helping them stay organized and on top of their responsibilities.
+Guru dapat menambahkan Tugas Rumah (PR) dan ujian untuk
+siswa, guru juga dapat menambahkan nilai siswa.
 
-3. Parental involvement: It can be difficult for parents to stay involved in their child's education, especially if they have busy schedules or if the school is not able to provide regular updates. The platform allows parents to view their child's progress and communicate with teachers, helping them stay connected to their child's education.
+### Parent
 
-Overall, the web management school platform helps to solve these problems by providing a convenient and user-friendly platform that brings everyone in the school community together and helps everyone stay informed and organized.
+Orang tua dapat memeriksa aktifitas anak mereka (nilai,
+ujian, kursus), dan juga bisa melakukan pembayaran biaya sekolah secara online
+
+### Admin/Employee
+
+Admin dapat mengelola siswa seperti mengubah informasi siswa, orang tua siswa dan mengelola permintaan siswa (komplain dan lain lain)
+
+### Student
+
+Siswa dapat melihat jadwal mereka,mengirim PR, ujian dan dapat untuk melihat kehadiran mereka
+
+## 1.3 Overview
+
+![image](./system-overview.png)
+
+## 1.4 Business Context
+
+Tujuan utamanya adalah memberikan kepada pengguna sistem waktu yang lebih sedikit dan efisiensi yang lebih tinggi. Untuk lebih jelas, mudah mengakses data atau membuatnya di mana saja dengan lebih sedikit usaha. Demi mencapai semua ini, ide yang muncul adalah membuat sistem di mana setiap informasi tentang siswa tercatat, seperti: nilai-nilainya, pekerjaan rumahnya, mata pelajarannya, ujiannya, dan data pendaftarannya. Sistem ini juga memungkinkan guru untuk dengan mudah membuat pekerjaan rumah dan mengikuti tingkat siswa dengan memeriksa nilai, tingkat, dan tugas-tugasnya, dan poin terpenting yang memungkinkan sistem bagi orang tua untuk memeriksa statistik siswanya dan membayar biaya sekolahnya tanpa perlu ke sekolah. Akhirnya, sistem ini memungkinkan karyawan untuk membuat jadwal siswa tanpa perlu melakukannya secara manual, memeriksa data dan permintaan pendaftarannya secara online. Semua itu akan menjamin waktu yang lebih sedikit, usaha yang lebih sedikit, dan efisiensi yang lebih tinggi.
+
+# 2.General Description
+
+## 2.1 Product Functions
+
+Sistem ini dapat diklasifikasikan menjadi:
+
+### Teacher Main Functions:
+
+1. Add Exam or homeworks:
+   Guru bisa membuat ujian
+   atau pekerjaan rumah kapan saja tanpa perlu pergi ke sekolah
+2. Add Attendance:
+   Guru dapat mengabsen siswa yang hadir di
+   kelasnya.
+3. Add students’ grades:
+   Guru dapat menandai kertas siswa secara
+   online dengan mudah.
+
+### Student Main Functions
+
+1.  Display schedule: Dapat melihat schedules mereka
+2.  Submit exam or homework:Dapat melakukan submit PR mereka
+3.  Display grades: Dapat melihat PR dan nilai keseluruhan
+4.  Add Attendance: Siswa juga dapat hadir sendiri tetapi atas perintah
+    gurunya karena dia memiliki kemampuan untuk membagikan kode kehadiran kepada siswa- bisa hadir dengan cara ini
+
+### Parents Main Functions:
+
+1. View student page: Orang tua dapat melakukan check kepada anak mereka seperti (nilai,absensi dan biaya sekolah) secara online
+2. Pay student fees: Orang tua dapat melakukan pembayaran biaya sekolah
+
+### Admin/Employee Main Functions:
+
+1. Do schedule: Melakukan insert/edit Schedule kepada siswa
+1. Edit Students Info: Dapat mengubah informasi siswa
+
+## 2.2 Similar System Information
+
+TODO : need to create survey for this
+
+## 2.3 User Problem Statement
+
+Permasalah akan dibagi sesuai dengan klasifikasi pengguna di
+poin berikut:
+
+### Parents
+
+Masalah terbesar adalah jika mereka harus melakukan sesuatu yang berhubungan dengan anak, Mereka harus pergi ke sekolah.
+
+### Student
+
+Masalah siswa adalah disorganisasi dan yang dia tangani
+dengan jumlah kertas yang banyak.
+
+### Teacher
+
+Masalah guru adalah bagaimana menangani dan mencari di kertas jika
+jumlahnya sangat banyak.
+
+### Admin/Employee
+
+Masalah karyawan adalah dia mengerjakan tugas siswa
+menjadwalkan secara manual sehingga membutuhkan banyak waktu untuk melakukannya untuk semua siswa.
+
+# 3.Use Case Diagram
+
+![image](./Use-case.png)
