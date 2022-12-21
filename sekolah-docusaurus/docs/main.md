@@ -41,7 +41,11 @@ Siswa dapat melihat jadwal mereka,mengirim PR, ujian dan dapat untuk melihat keh
 
 ![image](./system-overview.png)
 
-## 1.4 Business Context
+## 1.4 System Architecture
+
+![image]("http://www.plantuml.com/plantuml/png/TPDDw-8m4CRl-HI3T_7UWrYtqLsGzQNjOH4FsMRKOfkKP8h2udVVj0qcxFBleSmyyvkXp3nTMHA6-hPXeY9j89LjhLYIKozHKSAIWp130C2I0aLrHvC0SqydgeUu8SmsHYj29MVmXm6SJmwY2tj7nDe50U2lpg2r0o85YT_2EYJpqSHSTIFHmEoWBTqCviVTfB-7iKfBrx3lq0YgjHegvsy61I6K5is5mJd31btQ-xJif8ZIt5KhMkGeJ7N_g3-K2mX-uXFMTTC44FYhjlIlw1SKTMwDa6W34WJ_0P7WMxxh5f_QF49Nq6AElqGRc2ZtzPI60w2gC42H69FAFkCj_2_axiIoRqBJLvBM3MpGYP_LQQglTJLUnQb-NgoEjc2ZGs2-1Ey4I63BYyLXdxjNMImolkC5PxuwWC47ZitI8bsdEOTZoK-_c3VbVBwSvZ9_cI2CbWxfPEYGisYwK-7ZBBP29TsVyHS0")
+
+## 1.5 Business Context
 
 Tujuan utamanya adalah memberikan kepada pengguna sistem waktu yang lebih sedikit dan efisiensi yang lebih tinggi. Untuk lebih jelas, mudah mengakses data atau membuatnya di mana saja dengan lebih sedikit usaha. Demi mencapai semua ini, ide yang muncul adalah membuat sistem di mana setiap informasi tentang siswa tercatat, seperti: nilai-nilainya, pekerjaan rumahnya, mata pelajarannya, ujiannya, dan data pendaftarannya. Sistem ini juga memungkinkan guru untuk dengan mudah membuat pekerjaan rumah dan mengikuti tingkat siswa dengan memeriksa nilai, tingkat, dan tugas-tugasnya, dan poin terpenting yang memungkinkan sistem bagi orang tua untuk memeriksa statistik siswanya dan membayar biaya sekolahnya tanpa perlu ke sekolah. Akhirnya, sistem ini memungkinkan karyawan untuk membuat jadwal siswa tanpa perlu melakukannya secara manual, memeriksa data dan permintaan pendaftarannya secara online. Semua itu akan menjamin waktu yang lebih sedikit, usaha yang lebih sedikit, dan efisiensi yang lebih tinggi.
 
