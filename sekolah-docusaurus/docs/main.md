@@ -282,7 +282,7 @@ menjadwalkan secara manual sehingga membutuhkan banyak waktu untuk melakukannya 
 | Risks                                | Kegagalan Sistem: Hasil dari tekanan pada sistem karena sejumlah besar pengiriman pada sistem                                                                                                         |
 | Dependencies with other requirements | Untuk menyerahkan pekerjaan rumah, siswa harus memiliki akun , pekerjaan rumah harus dibuat oleh guru di database dan siswa harus membayar biayanya sehingga tergantung pada (fungsi 3.1, fungsi 3.4) |
 
-### 3.12 addExam
+### 3.13 addExam
 
 | (3.13)                               |                                                      |
 | ------------------------------------ | ---------------------------------------------------- |
